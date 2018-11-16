@@ -1,0 +1,23 @@
+通过命令 git init 把这个目录变成git可以管理的仓库
+
+第一步：使用命令 git add readme.txt添加到暂存区里面去
+
+第二步：用命令 git commit告诉Git，把文件提交到仓库
+
+使用git status来查看下结果
+
+git diff readme.txt 查看下结果内容
+
+git log命令显示从最近到最远的显示日志
+
+git reset --hard 版本号 回退到指定版本
+
+使用Git提交文件到版本库有两步：
+
+第一步：是使用 git add 把文件添加进去，实际上就是把文件添加到暂存区。
+
+第二步：使用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支上。
+
+git checkout -- file 可以丢弃工作区的修改
+
+git checkout -- readme.txt
